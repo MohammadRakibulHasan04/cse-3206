@@ -7,12 +7,15 @@ int main() {
     char operation;
     char choice;
 
+    // i am editing this on tamjid's forked repo. 
+
     do {
         // Input
         cout << "Enter first number of the operation: ";
+
         cin >> num1;
 
-        cout << "Enter an operator (+, -, *, /): ";
+        cout << "Enter an operator (+, -, *, /): "; //second comment 
         cin >> operation;
 
         cout << "Enter second number of the operation: ";
