@@ -9,10 +9,10 @@ int main() {
 
     do {
         // Input
-        cout << "Enter first number: ";
+        cout << "Enter first number: "; //the first number
         cin >> num1;
 
-        cout << "Enter an operator (+, -, *, /): ";
+        cout << "Enter an operator (+, -, *, /): "; //second comment 
         cin >> operation;
 
         cout << "Enter second number: ";
