@@ -11,16 +11,18 @@ int main() {
 
     do {
         // Input
-        cout << "Enter first number: "; //the first number
+        cout << "Enter first number of the operation: ";
+
         cin >> num1;
 
         cout << "Enter an operator (+, -, *, /): "; //second comment 
         cin >> operation;
 
-        cout << "Enter second number: ";
+        cout << "Enter second number of the operation: ";
         cin >> num2;
 
-        // Calculation and Output
+        // show the calculation window
+        
         switch (operation) {
             case '+':
                 cout << "Result: " << num1 + num2 << endl;
